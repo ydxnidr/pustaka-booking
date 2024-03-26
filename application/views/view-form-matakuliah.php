@@ -19,7 +19,8 @@
                     <th>Kode MTK</th>
                     <th>:</th>
                     <td>
-                    <input type="text" name="kode" id="kode"> </td>
+                        <input type="text" name="kode" id="kode"> 
+                    </td>
                 </tr>
                 <tr>
                     <th>Nama MTK</th>
@@ -40,7 +41,11 @@
                     </tr>
                     <tr>
                         <td colspan="3" align="center">
-                            <input type="submit" value="Submit"> </td>
-                        </tr> </table>
-                    </form> </center>
-</body> </html>
+                            <input type="submit" value="Submit"> 
+                        </td>
+                    </tr> 
+                </table>
+            </form> 
+        </center>
+</body> 
+</html>
