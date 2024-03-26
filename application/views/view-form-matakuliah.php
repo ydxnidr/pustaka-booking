@@ -8,7 +8,7 @@
         <table>
             <tr>
                 <th colspan="3">
-                    Form Input Data Mata Kuliah </th>
+                    <h1>Form Input Data Mata Kuliah</h1> </th>
                 </tr>
                 <tr>
                     <td colspan="3">
