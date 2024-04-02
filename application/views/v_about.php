@@ -15,7 +15,7 @@
                 </ul>
             <h4>Hobi Favorit</h4> 
                 <ul type="square">
-                <li>Bulutangkis</li> 
-                <li>Catur</li>
+                <li>Nonton film</li> 
+                <li>Musik</li>
                 </ul>
         </section>
