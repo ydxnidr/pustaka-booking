@@ -8,7 +8,7 @@
         <table>
             <tr>
                 <th colspan="3">
-                    Tampilan Riwayat Hidup
+                    <h1>Tampilan Riwayat Hidup</h1>
                 </th>
             </tr>
             <tr>

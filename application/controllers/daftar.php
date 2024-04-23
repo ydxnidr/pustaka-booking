@@ -5,7 +5,7 @@ class Daftar extends CI_Controller
     {
         $this->load->view('view-form-daftar'); }
         public function cetak() {
-            $this->form_validation->set_rules('nim', 'NIM', 'required|min_length[3]', [
+            $this->form_validation->set_rules('nim', 'NIM', 'required|numeric|min_length[3]', [
                 'required' => 'NIM Harus diisi',
                 'min_lenght' => 'NIM terlalu pendek'
             ]);
