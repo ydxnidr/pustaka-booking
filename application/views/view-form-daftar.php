@@ -34,26 +34,27 @@
                 </tr>
                 <tr>
                     <th>Tanggal Lahir</th>
-                    <td>:</td>
+                    <th>:</th>
                     <td>
                         <input type="date" name="tanggal" id="tanggal">
                     </tr>
                     <tr>
-                        <th>Tempat Lahir</th>
-                        <th>:</th>
-                        <td>
-                            <input type="text" name="tempat" id="tempat" placeholder="Required">
-                            <div class="col-sm-6 col-danger"> <?= form_error('tempat'); ?> </div> 
-                        </td>
+                    <th>Tempat Lahir</th>
+                    <th>:</th>
+                    <td>
+                        <input type="text" name="tempat" id="tempat" placeholder="Required">
+                        <div class="col-sm-6 col-danger"> <?= form_error('tempat'); ?> </div> 
+                    </td>
                     </tr>
                     <tr>
-                        <th>Alamat</th>
-                        <th>:</th>
-                        <td>
-                            <input type="text" name="alamat" id="alamat" placeholder="Required">
-                            <div class="col-sm-6 col-danger"> <?= form_error('alamat'); ?> </div> 
-                        </td>
+                    <th>Alamat</th>
+                    <th>:</th>
+                    <td>
+                        <input type="text" name="alamat" id="alamat" placeholder="Required">
+                        <div class="col-sm-6 col-danger"> <?= form_error('alamat'); ?> </div> 
+                    </td>
                     </tr>
+                    <td></td>
                     <tr>
                         <td colspan="3" align="center">
                             <input type="submit" value="Submit"> 

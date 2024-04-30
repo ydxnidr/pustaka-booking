@@ -16,8 +16,8 @@
                 </td>
             </tr>
             <tr>
-                <th>NIM</th> 
-                <th>:</th>
+                <td>NIM</td> 
+                <td>:</td>
                 <td>
                     <?= $nim; ?> 
                 </td>

@@ -27,7 +27,8 @@
                     <th>Nama MTK</th>
                     <td>:</td>
                     <td>
-                        <input type="text" name="nama" id="nama" placeholder="Required"</td>
+                        <input type="text" name="nama" id="nama" placeholder="Required">
+                    </td>
                     </tr>
                     <tr>
                         <th>SKS</th>
