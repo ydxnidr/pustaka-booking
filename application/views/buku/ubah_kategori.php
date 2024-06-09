@@ -5,13 +5,13 @@
         <div class="col-lg-6">
             <?php if (validation_errors()) {
                 $this->session->set_flashdata('pesan', '<div class="alert alert-danger alert-message" role="alert">Nama Kategori tidak boleh Kosong</div>');
-                redirect('buku/ubahkategori/' . $k['id']);
+                redirect('buku/ubahKategori/' . $k['id_kategori']);
             } ?>
             <?php foreach ($kategori as $k) { ?>
                 <form action="<?= base_url('buku/ubahKategori'); ?>" method="post">
                     <div class="form-group">
-                        <input type="hidden" name="id" id="id" value="<?php echo $k['id']; ?>">
-                        <input type="text" class="form-control form-control-user" id="kategori" name="kategori" placeholder="Masukkan Kategori Buku" value="<?= $k['kategori']; ?>">
+                        <input type="hidden" name="id_kategori" id="id_kategori" value="<?php echo $k['id_kategori']; ?>">
+                        <input type="text" class="form-control form-control-user" id="nama_kategori" name="nama_kategori" placeholder="Masukkan Kategori Buku" value="<?= $k['nama_kategori']; ?>">
                     </div>
                     <div class="form-group">
                         <input type="button" class="form-control form-control-user btn btn-dark col-lg-3 mt-3" value="Kembali" onclick="window.history.go(-1)">

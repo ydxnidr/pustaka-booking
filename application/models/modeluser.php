@@ -1,8 +1,10 @@
 <?php
+
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class ModelUser extends CI_Model
 {
+
     public function simpanData($data = null)
     {
         $this->db->insert('user', $data);
@@ -34,4 +36,11 @@ class ModelUser extends CI_Model
         return $this->db->get();
     }
 
+    public function joinKategoriBuku($where)
+    {
+        $this->db->from('buku');
+        $this->db->join('kategori', 'kategori.id_kategori = buku.id_kategori');
+        $this->db->where($where);
+        return $this->db->get();
+    }
 }

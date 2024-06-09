@@ -39,7 +39,7 @@
                             <option value="">Pilih Merk</option> 
                             <option value="Nike">Nike</option>
                             <option value="Adidas">Adidas</option>
-                            <option value="Kickers">Kickers</option>
+                            <option value="Kicker">Kicker</option>
                             <option value="Eiger">Eiger</option>
                             <option value="Bucherri">Bucherri</option>
                         </select>
