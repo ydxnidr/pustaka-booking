@@ -82,3 +82,4 @@ class ModelBuku extends CI_Model
         return $this->db->get('buku');
     }
 }
+
