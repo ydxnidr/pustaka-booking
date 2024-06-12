@@ -13,10 +13,17 @@
     <hr class="sidebar-divider">
 
     <!-- Looping Menu-->
+    
+    <div class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('admin/index'); ?>">
+            <i class="fas fa-fw fa-star"></i>
+            <span>Dashboard</span></a>
+        </div>
 
     <!-- Heading -->
     <div class="sidebar-heading">
-        Master Data
+        <p></p>
+        Menu
     </div>
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
@@ -25,15 +32,15 @@
         <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
             <i class="fas fa-fw fa-table"></i>
             <span>Kategori Buku</span></a>
-    </li>
+        </li>
     <li class="nav-item">
         <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
-            <i class="fa fa-fw fa book"></i>
+            <i class="fa fa-fw fa-book"></i>
             <span>Data Buku</span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
-            <i class="fa fa-fw fa book"></i>
+            <i class="fa fa-fw fa-book"></i>
             <span>Data Anggota</span></a>
     </li>
     </li>
